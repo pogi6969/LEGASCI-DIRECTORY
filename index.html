@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>LEGASCI Directory · Legazpi City Science High School</title>
+  <meta name="description" content="Campus directory and wayfinding guide for Legazpi City Science High School, S.Y. 2026–2027: buildings, classrooms, offices, labs and directions.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="LEGASCI">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-view="home">
+  <a class="skip" href="#view">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="LEGASCI Directory home">
+      <span class="brand__mark" data-js="brandIcon"></span>
+      <span class="brand__text">
+        <strong>LEGASCI <span>Directory</span></strong>
+        <small>Legazpi City Science High School</small>
+      </span>
+    </a>
+    <button class="iconbtn iconbtn--ghost" id="themeBtn" type="button" aria-label="Toggle dark mode"></button>
+  </header>
+
+  <nav class="tabbar" aria-label="Main">
+    <a class="tab" href="#/" data-tab="home" data-icon="home"><span>Home</span></a>
+    <a class="tab" href="#/map" data-tab="map" data-icon="map"><span>Map</span></a>
+    <a class="tab" href="#/directory" data-tab="directory" data-icon="list"><span>Directory</span></a>
+    <a class="tab" href="#/guide" data-tab="guide" data-icon="compass"><span>Guide</span></a>
+  </nav>
+
+  <main id="view" class="view" tabindex="-1"></main>
+
+  <noscript><p class="noscript">This directory needs JavaScript to run.</p></noscript>
+
+  <script src="js/data.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
